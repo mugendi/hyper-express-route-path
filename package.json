@@ -1,0 +1,30 @@
+{
+  "name": "hyper-express-route-path",
+  "version": "1.0.0",
+  "description": "A small module that helps extract the path of a certain route in hyper-express. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hyper-express",
+    "route",
+    "path",
+    "extract",
+    "file-path"
+  ],
+  "author": "Anthony Mugendi <ngurumugz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "path-match": "^1.2.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mugendi/hyper-express-route-path.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mugendi/hyper-express-route-path/issues"
+  },
+  "homepage": "https://github.com/mugendi/hyper-express-route-path#readme"
+}
