@@ -20,12 +20,15 @@ function middleWare(request, response, next) {
 }
 
 function routePath(request) {
+
 	// create a match function from the route pattern
 	const match = pathMatch(request.route.pattern);
+	
 	// match pur path
 	const matches = match(request.path);
 
-	if (matches) {
+	// if we have some matches...
+	if ('0' in matches) {
         // console.log(matches);
 		return  matches[0].replace(/^([^\/])/, '/$1');
 	}
