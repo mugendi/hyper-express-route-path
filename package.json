@@ -1,6 +1,6 @@
 {
   "name": "hyper-express-route-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small module that helps extract the path of a certain route in hyper-express. ",
   "main": "index.js",
   "scripts": {
